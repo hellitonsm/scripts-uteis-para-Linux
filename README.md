@@ -28,10 +28,10 @@ Propósito: Permite alterar um arquivo DOCX diretamente para fazer mala direta.
 
 2 - Uma Pasta resultado
 
-3 - Um arquivo docx
+3 - Um arquivo docx - "Todos.docx"
 
 4 - Que servirá de Modelo
 
-5 - um arquivo csv com as tabelas. "dados.csv"
+5 - um arquivo csv com as tabelas. "Dados.csv"
 
 É necessário modificar o script para acomodar as colunas. Em versões futuras isso não será necessário.

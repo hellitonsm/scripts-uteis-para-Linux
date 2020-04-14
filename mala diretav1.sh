@@ -42,7 +42,7 @@ INPUT=MAPA.csv
 
 [ ! -f $INPUT ] && { echo "$INPUT arquivo não encontrado"; exit 99; }
 #é necessário verificar e modificar a ordem a depender da ordem que está na tabela
-while read sala periodo mat rgi nome ch remidos inicio final processo portaria pai mae
+while read sala periodo pai mae
 do 
     spin
     cp $FILE $WORK_DIR

@@ -38,7 +38,7 @@ DIR=$PWD
   
 mkdir $WORK_DIR/resultado
 #O nome do arquivo CSV
-INPUT=MAPA.csv
+INPUT=Dados.csv
 
 [ ! -f $INPUT ] && { echo "$INPUT arquivo não encontrado"; exit 99; }
 #é necessário verificar e modificar a ordem a depender da ordem que está na tabela

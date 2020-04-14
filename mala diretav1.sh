@@ -49,11 +49,9 @@ do
     mkdir $WORK_DIR/tmp
     unzip $FILE -d $WORK_DIR/tmp >/dev/null
     rm $WORK_DIR/$FILE
-#No arquivo é necessário tem <> e no caso ser diferente da ordem aqui é necessário modificar
+#No arquivo é necessário ter <> e no caso ser diferente da ordem aqui é necessário modificar
     sed -e "s/&lt;SALA&gt;/${sala}/" -e "s/&lt;PERIODO&gt;/${periodo}/"\
-    -e "s/&lt;MAT&gt;/${mat}/" -e "s/&lt;RGI&gt;/${rgi}/" -e "s/&lt;NOME&gt;/${nome}/"\
-    -e "s/&lt;CH&gt;/${ch}/" -e "s/&lt;REMIDOS&gt;/${remidos}/" -e "s/&lt;PROCESSO&gt;/${processo}/"\
-    -e "s/&lt;PORTARIA&gt;/${portaria}/" -e "s/&lt;REMIDOS&gt;/${remidos}/" -e "s/&lt;PAI&gt;/${pai}/"\
+    -e "s/&lt;PAI&gt;/${pai}/"\
     -e "s/&lt;MAE&gt;/${mae}/" -i $WORK_DIR/tmp/word/document.xml
     cd $WORK_DIR/tmp
     zip -r ${FILE} * >/dev/null

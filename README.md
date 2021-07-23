@@ -33,3 +33,9 @@ Propósito: Permite alterar um arquivo DOCX diretamente para fazer mala direta.
 4 - um arquivo csv com as tabelas. "Dados.csv"
 
 É necessário modificar o script para acomodar as colunas. Em versões futuras isso não será necessário.
+
+# Dividir por Marcador
+
+Propósito: Dividir um arquivo PDF quem possua marcadores, ficando mais fácil fazer a divisão.
+
+Requerimento: Necessário um arquivo pdf que possui marcadores internos, que pode ser colocado via programa como o Foxit Reader, ou já ser criado dessa forma.
